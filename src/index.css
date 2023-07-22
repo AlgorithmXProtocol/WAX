@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilos para el contenedor del header */
+.header {
+  margin-top: 20px; /* Ajusta el valor según tu preferencia para bajar los iconos */
+  display: flex;
+  justify-content: flex-end; /* Alinear los elementos a la derecha */
+}
+
+/* Estilos para la lista y quitar los puntos */
+.icon-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Mostrar los ítems en una sola fila */
+  align-items: center; /* Alinear los íconos verticalmente en el centro */
+  margin-right: 25px;
+  margin-top: 0%;
+}
+
+/* Estilos para cada ítem de la lista */
+.icon-list-item {
+  margin-left: 10px; /* Espacio entre los ítems */
+}
+
+/* Estilos para los enlaces */
+.icon-link {
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos adicionales para los iconos */
+.main-grid-item-icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: gray; /* Contorno gris para los iconos */
+  margin-left: 5px;
+}
+
+/* Estilos para el botón enlace personalizado */
+.custom-button {
+  background-color: #ff6b6b;
+  color: rgb(0, 0, 0);
+  border: 2px solid #3b3a3a;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0px; /* Ajusta el valor según tu preferencia para separarlo un poco de los íconos */
+  margin-right: 25px;
+}
